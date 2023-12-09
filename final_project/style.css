@@ -1,0 +1,42 @@
+.container{
+    max-width: 700px;
+    max-height: 600px;
+    margin: auto;
+    background-color: lightgray;
+    padding-left: 30px;
+}
+
+h1{
+    margin-bottom: 1px;
+}
+
+p{
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+label,p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.quantity{
+    float: left;
+    margin-right: 10px;
+}
+
+input{
+    padding-left: 4px;
+    padding: 5px;
+}
+
+
+
+button{
+    padding: 10px;
+    background-color: rgb(63, 114, 12);
+    color:white;
+    font-size: 15px;
+    margin: 8px;
+}

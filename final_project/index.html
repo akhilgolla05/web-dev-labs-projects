@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>search</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h1>Wholesale Dealers</h1>
+                <p>Product Search</p>
+            </div>
+            <div>
+                <form id="myform" action="search_page.php" method="post">
+                    <label for="productName">Product Name</label><br>
+                    <input id="productName" type="text" name="productName" value=""><br><br>
+
+                    <label for="warehouseCity">Warehouse City</label><br>
+                    <input id="warehouseCity" type="text" name="warehouseCity" value=""><br><br>
+                <div class="quantity">
+                    <label for="minQuantity">Minimum Quantity</label><br>
+                    <input id="minQuantity" type="number" name="minQty" value=""><br><br>
+
+                    <label for="maxQuantity">Maximum Quantity</label><br>
+                    <input id="maxQuantity" type="number" name="maxQty" value=""><br><br>
+                </div>  
+                <div class="">
+                    <label for="minQuantity">Minimum Price</label><br>
+                    <input id="minQuantity" type="number" name="minPrice" value=""><br><br>
+                    
+                    <label for="maxQuantity">Maximum Price</label><br>
+                    <input id="maxQuantity" type="number" name="maxPrice" value=""><br><br>
+                </div>  
+                    <div class="buttons">
+                        <button type="button" onclick="clearData()">Clear Form</button>
+                        <button type="submit" name="search">Search Products</button>
+                    </div>
+                
+                  </form>
+            </div>
+        </div>
+        
+        
+        <script src="" async defer></script>
+    </body>
+</html>
